@@ -1,0 +1,21 @@
+<Context>
+
+    <Resource name="jdbc/ORDERBASE"
+
+              auth="Container"
+
+              type="javax.sql.DataSource"
+
+              username="root"
+
+              password="root"
+
+              driverClassName="com.mysql.cj.jdbc.Driver"
+
+              url="jdbc:mysql://localhost:3306/ORDERBASE?allowMultiQueries=true&amp;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&amp;useTimezone=true&amp;useSSL=false"
+
+              maxActive="15"
+
+              maxIdle="3"/>
+
+</Context>
